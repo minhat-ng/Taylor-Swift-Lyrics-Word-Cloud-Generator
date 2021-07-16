@@ -89,7 +89,6 @@ HeapDict==1.0.1
 imageai==2.1.5
 imageio==2.8.0
 imagesize==1.2.0
-immutables @ file:///C:/ci/immutables_1592426094604/work
 importlib-metadata @ file:///C:/ci/importlib-metadata_1593431910144/work
 intervaltree==3.0.2
 ipykernel==5.3.0
