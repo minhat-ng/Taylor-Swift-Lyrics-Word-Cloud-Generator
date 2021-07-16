@@ -105,7 +105,6 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.2.0
 language-check==1.1
-lazy-object-proxy==1.5.0
 libarchive-c==2.9
 locket==0.2.0
 lxml==4.5.1
