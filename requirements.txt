@@ -86,7 +86,6 @@ greenlet==0.4.16
 grpcio==1.27.2
 h5py==2.10.0
 HeapDict==1.0.1
-hypothesis @ file:///tmp/build/80754af9/hypothesis_1593435550167/work
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 imageai==2.1.5
 imageio==2.8.0
