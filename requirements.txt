@@ -25,7 +25,6 @@ bitarray==1.2.2
 bkcharts==0.2
 bleach==3.1.5
 blinker==1.4
-bokeh @ file:///C:/ci/bokeh_1593187680264/work
 boto==2.49.0
 boto3==1.12.31
 botocore==1.15.31
