@@ -9,7 +9,6 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("taylor_swift_lyrics.csv", encoding='latin-1')
-st.dataframe(df.head())
 
 option=st.selectbox('What album do you want to create a Word Cloud for ?',
 	('folklore','evermore'))
@@ -60,3 +59,5 @@ plt.imshow(wc, interpolation="bilinear")
 plt.axis('off')
 fig=plt.show()
 st.pyplot(fig)
+if st.button("Show me the data"): 
+	st.dataframe(df.lyric[X])
