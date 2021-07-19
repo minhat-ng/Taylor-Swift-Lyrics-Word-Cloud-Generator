@@ -10,7 +10,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import matplotlib.pyplot as plt
 
 file = open('taylor_swift_lyrics.csv')
-data = pd.read_csv(file)  
+data = pd.read_csv(file,sep=";", encoding='cp1252')  
 df = pd.DataFrame(data)
 
 option=st.selectbox('What album do you want to create a Word Cloud for ?',
