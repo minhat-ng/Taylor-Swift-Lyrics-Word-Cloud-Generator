@@ -59,5 +59,5 @@ plt.imshow(wc, interpolation="bilinear")
 plt.axis('off')
 fig=plt.show()
 st.pyplot(fig)
-if st.button("Show me the data"): 
-	st.dataframe(df.lyric[X])
+if st.button("Show me the data set"): 
+	st.dataframe(df)
