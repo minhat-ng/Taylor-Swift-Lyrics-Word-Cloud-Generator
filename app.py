@@ -9,7 +9,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 import matplotlib.pyplot as plt
 
-file = open('C:/Users/ACER/Desktop/taylor/taylor_swift_lyrics.csv')
+file = open('taylor_swift_lyrics.csv')
 data = pd.read_csv(file)  
 df = pd.DataFrame(data)
 
@@ -32,13 +32,13 @@ st.success('Done!')
 st.balloons()
 
 if option=='folklore': 
-	mask2 = np.array(Image.open('C:/Users/ACER/Desktop/taylor/jwsmcwo2opc51-removebg-preview.jpg'))
+	mask2 = np.array(Image.open('jwsmcwo2opc51-removebg-preview.jpg'))
 	hue=112
 	sat=13
 	li=26
 	bc="#7f7f7f"
 else: 
-	mask2 = np.array(Image.open('C:/Users/ACER/Desktop/taylor/3a-removebg-preview.jpg'))
+	mask2 = np.array(Image.open('3a-removebg-preview.jpg'))
 	hue=0
 	sat=92
 	li=31
